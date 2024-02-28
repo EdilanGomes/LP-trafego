@@ -1,0 +1,4407 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#000000">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    
+
+    <title>MAVI Marketing Digital    </title>
+
+    
+    <!-- Reset Browser Styles -->
+    <style type="text/css" rel="stylesheet">
+      html, body, div, span, applet, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, big, cite, code,
+      del, dfn, em, img, ins, kbd, q, s, samp,
+      small, strike, strong, sub, sup, tt, var,
+      b, u, i, center,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, embed,
+      figure, figcaption, footer, header, hgroup,
+      menu, nav, output, ruby, section, summary,
+      time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+
+      article, aside, details, figcaption, figure,
+      footer, header, hgroup, menu, nav, section {
+        display: block;
+      }
+
+      body {
+        line-height: 1;
+      }
+
+      img {
+        vertical-align: middle;
+      }
+
+      ol, ul {
+        list-style: none;
+      }
+
+      blockquote, q {
+        quotes: none;
+      }
+
+      blockquote:before, blockquote:after,
+      q:before, q:after {
+        content: '';
+        content: none;
+      }
+
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+
+      b, strong {
+        font-weight: bold;
+      }
+
+      i, em {
+        font-style: italic;
+      }
+    </style>
+
+    <!-- Bricks Main Styles -->
+    <style type="text/css" rel="stylesheet">
+      * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #FFFFFF;
+        color: #333333;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 1.42857;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.2;
+        color: inherit;
+      }
+
+      h1 { font-size: 41px; }
+      h2 { font-size: 34px; }
+      h3 { font-size: 28px; }
+      h4 { font-size: 20px; }
+      h5 { font-size: 16px; }
+      h6 { font-size: 14px; }
+
+      .bricks--page {
+        width: 100%;
+      }
+
+      .bricks--section {
+        width: 100%;
+      }
+
+      .bricks--section > div {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .bricks--row {
+        display: flex;
+        flex-flow: column nowrap;
+      }
+
+      .bricks--column > div {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .bricks--component-box {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+      }
+
+      @media screen and (min-width: 768px) {
+        .bricks--row {
+          flex-flow: row nowrap;
+        }
+      }
+    </style>
+
+    <!-- Bricks Component Form Styles -->
+    <style type="text/css" rel="stylesheet">
+      .bricks-form {
+        height: auto;
+        width: 100%;
+      }
+
+      .bricks-form__fieldset {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: -5px;
+        margin-right: -5px;
+      }
+
+      .bricks-form__field {
+        display: flex;
+        width: 100%;
+        flex-grow: 1;
+        flex-direction: column;
+      }
+
+      .bricks-form__label {
+        position: relative !important;
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 0.4em;
+        line-height: 1.25;
+        vertical-align: middle;
+      }
+
+      .bricks-form__input {
+        display: block;
+        width: 100%;
+        padding: 0 0.5em;
+        line-height: 1.42857;
+      }
+
+      .bricks-form__input.error {
+        border: 1px solid red !important;
+      }
+
+      .bricks-form__field__option .bricks-form__label {
+        padding-left: 1.33em;
+        margin-bottom: 0.2em;
+      }
+
+      .bricks-form__field__option .bricks-form__label input[type="checkbox"],
+      .bricks-form__field__option .bricks-form__label input[type="radio"] {
+        margin: 0px 0px 0px -1.33em;
+      }
+
+      .bricks-form__submit {
+        position: relative;
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Cabin|Crimson+Text|Droid+Sans|Droid+Serif|Lato|Lobster|Montserrat|Old+Standard+TT|Open+Sans|Oswald|Pacifico|Playfair+Display|PT+Sans|Raleway|Rubik|Source+Sans+Pro|Ubuntu|Roboto" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.css" rel="stylesheet" />
+
+    <!-- Bricks Static Shared Styles -->
+<style type="text/css" rel="stylesheet">
+   .bricks--component-video div {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    line-height: 0;
+    box-sizing: border-box;
+  }
+
+   .bricks--component-video div iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+    
+
+<!-- Bricks Static Text Styles -->
+<style type="text/css" rel="stylesheet">
+
+   .bricks--component-text {
+    color: #333;
+    line-height: 1.42;
+    overflow: hidden;
+    word-wrap: break-word;
+  }
+
+   .bricks--component-text a {
+    color: #31a2ff;
+    text-decoration: none;
+  }
+
+   .bricks--component-text sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+
+   .bricks--component-text sub {
+    bottom: -0.25em;
+  }
+
+   .bricks--component-text sup {
+    top: -0.5em;
+  }
+
+   .bricks--component-text ol, 
+   .bricks--component-text ul {
+    padding-left: 1.5em;
+  }
+
+   .bricks--component-text ol > li,
+   .bricks--component-text ul > li {
+    list-style-type: none;
+  }
+
+   .bricks--component-text ul > li::before {
+    content: '\2022';
+  }
+
+   .bricks--component-text li::before {
+    display: inline-block;
+    white-space: nowrap;
+    width: 1.2em;
+  }
+
+   .bricks--component-text li:not(.ql-direction-rtl)::before {
+    margin-left: -1.5em;
+    margin-right: 0.3em;
+    text-align: right;
+  }
+
+   .bricks--component-text li.ql-direction-rtl::before {
+    margin-left: 0.3em;
+    margin-right: -1.5em;
+  }
+
+   .bricks--component-text ol li:not(.ql-direction-rtl),
+   .bricks--component-text ul li:not(.ql-direction-rtl) {
+    padding-left: 1.5em;
+  }
+
+   .bricks--component-text ol li.ql-direction-rtl,
+   .bricks--component-text ul li.ql-direction-rtl {
+    padding-right: 1.5em;
+  }
+
+   .bricks--component-text ol li {
+    counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+    counter-increment: list-0;
+  }
+
+   .bricks--component-text ol li:before {
+    content: counter(list-0, decimal) '. ';
+  }
+
+   .bricks--component-text ol li.ql-indent-1 {
+    counter-increment: list-1;
+  }
+
+   .bricks--component-text ol li.ql-indent-1:before {
+    content: counter(list-1, lower-alpha) '. ';
+  }
+
+   .bricks--component-text ol li.ql-indent-1 {
+    counter-reset: list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+  }
+
+   .bricks--component-text ol li.ql-indent-2 {
+    counter-increment: list-2;
+  }
+
+   .bricks--component-text ol li.ql-indent-2:before {
+    content: counter(list-2, lower-roman) '. ';
+  }
+
+   .bricks--component-text ol li.ql-indent-2 {
+    counter-reset: list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+  }
+
+   .bricks--component-text ol li.ql-indent-3 {
+    counter-increment: list-3;
+  }
+
+   .bricks--component-text ol li.ql-indent-3:before {
+    content: counter(list-3, decimal) '. ';
+  }
+
+   .bricks--component-text ol li.ql-indent-3 {
+    counter-reset: list-4 list-5 list-6 list-7 list-8 list-9;
+  }
+
+   .bricks--component-text ol li.ql-indent-4 {
+    counter-increment: list-4;
+  }
+
+   .bricks--component-text ol li.ql-indent-4:before {
+    content: counter(list-4, lower-alpha) '. ';
+  }
+
+   .bricks--component-text ol li.ql-indent-4 {
+    counter-reset: list-5 list-6 list-7 list-8 list-9;
+  }
+
+   .bricks--component-text ol li.ql-indent-5 {
+    counter-increment: list-5;
+  }
+
+   .bricks--component-text ol li.ql-indent-5:before {
+    content: counter(list-5, lower-roman) '. ';
+  }
+
+   .bricks--component-text ol li.ql-indent-5 {
+    counter-reset: list-6 list-7 list-8 list-9;
+  }
+
+   .bricks--component-text ol li.ql-indent-6 {
+    counter-increment: list-6;
+  }
+
+   .bricks--component-text ol li.ql-indent-6:before {
+    content: counter(list-6, decimal) '. ';
+  }
+
+   .bricks--component-text ol li.ql-indent-6 {
+    counter-reset: list-7 list-8 list-9;
+  }
+
+   .bricks--component-text ol li.ql-indent-7 {
+    counter-increment: list-7;
+  }
+
+   .bricks--component-text ol li.ql-indent-7:before {
+    content: counter(list-7, lower-alpha) '. ';
+  }
+
+   .bricks--component-text ol li.ql-indent-7 {
+    counter-reset: list-8 list-9;
+  }
+
+   .bricks--component-text ol li.ql-indent-8 {
+    counter-increment: list-8;
+  }
+
+   .bricks--component-text ol li.ql-indent-8:before {
+    content: counter(list-8, lower-roman) '. ';
+  }
+
+   .bricks--component-text ol li.ql-indent-8 {
+    counter-reset: list-9;
+  }
+
+   .bricks--component-text ol li.ql-indent-9 {
+    counter-increment: list-9;
+  }
+
+   .bricks--component-text ol li.ql-indent-9:before {
+    content: counter(list-9, decimal) '. ';
+  }
+
+   .bricks--component-text .ql-indent-1:not(.ql-direction-rtl) {
+    padding-left: 3em;
+  }
+
+   .bricks--component-text li.ql-indent-1:not(.ql-direction-rtl) {
+    padding-left: 4.5em;
+  }
+
+   .bricks--component-text .ql-indent-1.ql-direction-rtl.ql-align-right {
+    padding-right: 3em;
+  }
+
+   .bricks--component-text li.ql-indent-1.ql-direction-rtl.ql-align-right {
+    padding-right: 4.5em;
+  }
+
+   .bricks--component-text .ql-indent-2:not(.ql-direction-rtl) {
+    padding-left: 6em;
+  }
+
+   .bricks--component-text li.ql-indent-2:not(.ql-direction-rtl) {
+    padding-left: 7.5em;
+  }
+
+   .bricks--component-text .ql-indent-2.ql-direction-rtl.ql-align-right {
+    padding-right: 6em;
+  }
+
+   .bricks--component-text li.ql-indent-2.ql-direction-rtl.ql-align-right {
+    padding-right: 7.5em;
+  }
+
+   .bricks--component-text .ql-indent-3:not(.ql-direction-rtl) {
+    padding-left: 9em;
+  }
+
+   .bricks--component-text li.ql-indent-3:not(.ql-direction-rtl) {
+    padding-left: 10.5em;
+  }
+
+   .bricks--component-text .ql-indent-3.ql-direction-rtl.ql-align-right {
+    padding-right: 9em;
+  }
+
+   .bricks--component-text li.ql-indent-3.ql-direction-rtl.ql-align-right {
+    padding-right: 10.5em;
+  }
+
+   .bricks--component-text .ql-indent-4:not(.ql-direction-rtl) {
+    padding-left: 12em;
+  }
+
+   .bricks--component-text li.ql-indent-4:not(.ql-direction-rtl) {
+    padding-left: 13.5em;
+  }
+
+   .bricks--component-text .ql-indent-4.ql-direction-rtl.ql-align-right {
+    padding-right: 12em;
+  }
+
+   .bricks--component-text li.ql-indent-4.ql-direction-rtl.ql-align-right {
+    padding-right: 13.5em;
+  }
+
+   .bricks--component-text .ql-indent-5:not(.ql-direction-rtl) {
+    padding-left: 15em;
+  }
+
+   .bricks--component-text li.ql-indent-5:not(.ql-direction-rtl) {
+    padding-left: 16.5em;
+  }
+
+   .bricks--component-text .ql-indent-5.ql-direction-rtl.ql-align-right {
+    padding-right: 15em;
+  }
+
+   .bricks--component-text li.ql-indent-5.ql-direction-rtl.ql-align-right {
+    padding-right: 16.5em;
+  }
+
+   .bricks--component-text .ql-indent-6:not(.ql-direction-rtl) {
+    padding-left: 18em;
+  }
+
+   .bricks--component-text li.ql-indent-6:not(.ql-direction-rtl) {
+    padding-left: 19.5em;
+  }
+
+   .bricks--component-text .ql-indent-6.ql-direction-rtl.ql-align-right {
+    padding-right: 18em;
+  }
+
+   .bricks--component-text li.ql-indent-6.ql-direction-rtl.ql-align-right {
+    padding-right: 19.5em;
+  }
+
+   .bricks--component-text .ql-indent-7:not(.ql-direction-rtl) {
+    padding-left: 21em;
+  }
+
+   .bricks--component-text li.ql-indent-7:not(.ql-direction-rtl) {
+    padding-left: 22.5em;
+  }
+
+   .bricks--component-text .ql-indent-7.ql-direction-rtl.ql-align-right {
+    padding-right: 21em;
+  }
+
+   .bricks--component-text li.ql-indent-7.ql-direction-rtl.ql-align-right {
+    padding-right: 22.5em;
+  }
+
+   .bricks--component-text .ql-indent-8:not(.ql-direction-rtl) {
+    padding-left: 24em;
+  }
+
+   .bricks--component-text li.ql-indent-8:not(.ql-direction-rtl) {
+    padding-left: 25.5em;
+  }
+
+   .bricks--component-text .ql-indent-8.ql-direction-rtl.ql-align-right {
+    padding-right: 24em;
+  }
+
+   .bricks--component-text li.ql-indent-8.ql-direction-rtl.ql-align-right {
+    padding-right: 25.5em;
+  }
+
+   .bricks--component-text .ql-indent-9:not(.ql-direction-rtl) {
+    padding-left: 27em;
+  }
+
+   .bricks--component-text li.ql-indent-9:not(.ql-direction-rtl) {
+    padding-left: 28.5em;
+  }
+
+   .bricks--component-text .ql-indent-9.ql-direction-rtl.ql-align-right {
+    padding-right: 27em;
+  }
+
+   .bricks--component-text li.ql-indent-9.ql-direction-rtl.ql-align-right {
+    padding-right: 28.5em;
+  }
+
+   .bricks--component-text .ql-direction-rtl {
+    direction: rtl;
+    text-align: inherit;
+  }
+  
+</style>
+
+
+    <!-- Defines page width style to row components -->
+    <style>
+      .bricks--section > div {
+        max-width: 960px;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+      <input type="hidden" id="ga4-measurement-id" value="G-6JTCQ2WN98">
+      <input type="hidden" id="has-gtm" value="false">
+    
+
+    <div class="bricks--container">
+      <div class="bricks--page">
+        
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-section-jsdbj8lx {
+      
+            background-image: url(https://static.wixstatic.com/media/08bb2c_3a6f9eb2082d450a945fc294169440b8~mv2.jpg), linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%);
+            background-position-x: 50%;
+            background-position-y: 0%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: scroll;
+          
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+
+    #rd-section-jsdbj8lx > div:not(.bricks--row) {
+      min-height: 0px;
+    }
+  
+
+  
+</style>
+
+<section id="rd-section-jsdbj8lx" class="bricks--section rd-section">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-jsdbj8ly {
+      min-height: 660px;
+    }
+
+    #rd-row-jsdbj8ly .bricks--column > div {
+      min-height: 660px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-jsdbj8ly.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-jsdbj8ly.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-jsdbj8ly" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-jsdbl0x8 {
+      flex: 7 0 0;
+    }
+
+    #rd-column-jsdbl0x8 > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 30px;
+      padding-bottom: 0px;
+      padding-left: 30px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-jsdbl0x8 > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-jsdbl0x8" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lo4w74wm {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      align-self: flex-start;
+      max-width: 179px;
+    }
+
+    #rd-image-lo4w74wm a,
+    #rd-image-lo4w74wm img {
+      width: 179px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lo4w74wm {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+<br><br>
+<h1 style="color: red; font-size: 35px;">MAVI Marketing Digital    </h1>
+
+<div id="rd-image-lo4w74wm" class="bricks--component bricks--component-image rd-image">
+  
+    
+
+  
+</div>
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-text-jsc3n9ex {
+      display: block;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      min-height: auto-39px;
+      max-width: 487px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      align-self: flex-start;
+      width: 100%;
+      word-break: break-word;
+    }
+  
+
+  
+</style>
+
+<style>
+  /* Estilos para desktop */
+  #seu-div {
+    max-width: 800px; /* ou qualquer largura desejada para desktop */
+    margin: 0 auto; /* centralizar na tela */
+  }
+
+  /* Estilos para dispositivos móveis */
+  @media (max-width: 767px) {
+    #seu-div {
+      max-width: 100%; /* ocupar a largura total da tela em dispositivos móveis */
+      padding: 0 15px; /* adicionar um pequeno preenchimento nas laterais */
+    }
+
+    strong {
+      font-size: 28px; /* ajustar o tamanho da fonte para dispositivos móveis */
+    }
+  }
+</style>
+</head>
+<body>
+
+<div id="seu-div" class="componente-marketing componente-texto">
+  <p style="text-align: center;">
+    <strong style="font-family: Montserrat, sans-serif; font-size: 35px; background-color: transparent; color: white;">
+      Somos uma empresa de marketing especializada em aumentar a performance do seu negócio.
+    </strong>
+  </p>
+</div>
+
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-text-lr83zw4r {
+      display: block;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      min-height: auto-39px;
+      max-width: 487px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      align-self: flex-start;
+      width: 100%;
+      word-break: break-word;
+    }
+  
+
+  
+</style>
+<br><br><br><br>
+
+
+
+  </div>
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-jsdbj8lz {
+      flex: 5 0 0;
+    }
+
+    #rd-column-jsdbj8lz > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-jsdbj8lz > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-jsdbj8lz" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-box-lod1z3t3 {
+      
+          background-color: #f6a611;
+        
+      border-bottom-style: solid;
+      border-color: #f6a611;
+      border-left-style: solid;
+      border-radius: 30px;
+      border-right-style: solid;
+      border-top-style: solid;
+      border-width: 1px;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      min-height: -1px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      max-width: 320px;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+</style>
+
+
+  
+
+
+
+<style type="text/css" rel="stylesheet">
+  
+
+  
+    #rd-form-joq3m2vy {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      max-width: 260px;
+      margin-top: 15px;
+      margin-bottom: 0px;
+    }
+
+    #rd-form-joq3m2vy .bricks-form__fieldset {
+      flex-flow: column nowrap;
+      align-items: flex-start;
+    }
+
+    #rd-form-joq3m2vy .bricks-form__field {
+      margin-bottom: 6px;
+      padding: 0;
+      width: 100.0%;
+    }
+
+    #rd-form-joq3m2vy .bricks-form__field.bricks-form__privacy,
+    #rd-form-joq3m2vy .bricks-form__field.bricks-form__terms {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+      #rd-form-joq3m2vy .bricks-form__field {
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+    #rd-form-joq3m2vy .bricks-form__static {
+      color: #ffffff;
+      font-family: Open Sans, sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: normal;
+    }
+
+    #rd-form-joq3m2vy .bricks-form__static a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    #rd-form-joq3m2vy .bricks-form__label {
+      color: #ffffff;
+      display: inline-block;
+      font-family: Open Sans, sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: normal;
+      text-align: left;
+      text-decoration: none;
+    }
+
+    #rd-form-joq3m2vy label.error {
+      color: #DC3543;
+      font-size: 12px;
+      line-height: 1.1;
+      padding: 2px 0 0 4px;
+    }
+
+    #rd-form-joq3m2vy .bricks-form__label.always-visible,
+    #rd-form-joq3m2vy .bricks-form__field__option .bricks-form__label {
+      display: inline-block;
+    }
+
+    #rd-form-joq3m2vy .bricks-form__field[data-step].step-hidden {
+      display: none;
+    }
+
+    #rd-form-joq3m2vy .bricks-form__input {
+      color: #47504e;
+      background-color: #ffffff;
+      border-bottom-style: none;
+      border-left-style: none;
+      border-right-style: none;
+      border-top-style: none;
+      border-color: #a73131;
+      border-radius: 1px;
+      border-width: 0px;
+      font-family: Open Sans, sans-serif;
+      font-size: 12px;
+      
+          box-shadow: inset 0px 2px 3px #ddd;
+          -webkit-box-shadow: inset 0px 2px 3px #ddd;
+          -moz-box-shadow: inset 0px 2px 3px #ddd;
+        ;
+    }
+
+    #rd-form-joq3m2vy .bricks-form__input::placeholder {
+      color: transparent;
+    }
+
+    #rd-form-joq3m2vy .bricks-form__input.select2-container {
+      padding: 0 !important;
+    }
+
+    #rd-form-joq3m2vy .select2-container .select2-choice {
+      height: 20px !important;
+      line-height: 20px !important;
+
+      color: #47504e !important;
+      font-family: Open Sans, sans-serif !important;
+      font-size: 12px !important;
+      background: #ffffff;
+    }
+
+    #rd-form-joq3m2vy .select2-container .select2-choice .select2-arrow b {
+      background-position: 0 5px !important;
+    }
+
+    #rd-form-joq3m2vy .select2-container .select2-choice .select2-arrow {
+      background: none;
+      border: none;
+    }
+
+    #rd-form-joq3m2vy .bricks-form__input:not(textarea) {
+      height: 20px;
+    }
+
+    #rd-form-joq3m2vy .bricks-form__submit {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #rd-form-joq3m2vy .with-select-flags > .phone-input-group > .select2-container > .select2-choice {
+      border-top-right-radius: 0 !important;
+      border-bottom-right-radius: 0 !important;
+      border-style: none;
+    }
+    #rd-form-joq3m2vy .with-select-flags > .phone-input-group > .select2-container > .select2-choice > .select2-chosen {
+      margin-right: 0px;
+    }
+
+    #rd-form-joq3m2vy .with-select-flags > .phone-input-group > .select2-container > .select2-choice > .select2-chosen > .flag {
+      vertical-align: middle;
+    }
+
+    #rd-form-joq3m2vy .with-select-flags > .phone-input-group > .phone {
+      width: calc(100% - 55px);
+      display: inline-block;
+      border-top-left-radius: 0px !important;
+      border-bottom-left-radius: 0px !important;
+    }
+
+    #rd-form-joq3m2vy .with-select-flags > .phone-country {
+      display: inline-block;
+    }
+
+    #rd-form-joq3m2vy .with-select-flags > .phone-input-group {
+      display: flex;
+    }
+
+    #rd-form-joq3m2vy .with-select-flags > .phone-input-group > .phone-country {
+      width: 55px;
+      display: inline-block;
+    }
+  
+
+  
+</style>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-form-joq3m2vy input[type="date"] {
+      -webkit-appearance: none;
+    }
+  
+</style>
+
+  
+
+
+<style type="text/css" rel="stylesheet">
+  
+    a#rd-button-joq3m2w0 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #rd-button-joq3m2w0 {
+      -ms-flex-align: center;
+      -ms-flex-direction: column;
+      -ms-flex-pack: center;
+      align-self: center;
+      background-color: #5e5393;
+      border-bottom-style: none;
+      border-color: transparent;
+      border-left-style: none;
+      border-radius: 14px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 0px;
+      
+          box-shadow: 0px
+                      0px
+                      0px
+                      0px
+                      #cccccc;
+        ;
+      color: #ffffff;
+      cursor: pointer;
+      font-family: Open Sans, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      height: 45px;
+      justify-content: center;
+      line-height: 1.42857;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      max-width: 330px;
+      text-align: center;
+      text-decoration: none;
+      width: 100%;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-button-joq3m2w0 {
+        height: auto;
+        padding-top: 0.66em;
+        padding-bottom: 0.66em;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+
+
+    <div style="position: fixed; left: -5000px">
+      <input type="text" name="emP7yF13ld" readonly autocomplete="false" tabindex="-1" value="">
+      <input type="text" name="sh0uldN07ch4ng3" readonly autocomplete="false" tabindex="-1" value="should_not_change">
+    </div>
+  </form>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/jquery.validate/1.9/jquery.validate.min.js"></script>
+<script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/jquery.form/2.02/jquery.form.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js"></script>
+<script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/lead-tracking/stable/plugins/jquery.cookie.v1.4.1.min.js"></script>
+<script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/lead-tracking/stable/plugins/math.uuid.v1.4.min.js"></script>
+<script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rd/stable/rdlps.min.js?t=1708434425"></script>
+<script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rd/stable/rdlps-progressive-profiling.min.js?t=1708434425"></script>
+<script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rd/stable/rdlps-autofill.min.js?t=1708434425"></script>
+
+
+
+
+</div>
+
+  </div>
+</div>
+
+</div>
+
+</section>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-section-jsc68n45 {
+      
+          background-color: #f1f1f6;
+        
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+
+    #rd-section-jsc68n45 > div:not(.bricks--row) {
+      min-height: 0px;
+    }
+  
+
+  
+</style>
+
+<section id="rd-section-jsc68n45" class="bricks--section rd-section">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-jsc68n46 {
+      min-height: 50px;
+    }
+
+    #rd-row-jsc68n46 .bricks--column > div {
+      min-height: 50px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-jsc68n46.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-jsc68n46.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-jsc68n46" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-jsc68n47 {
+      flex: 12 0 0;
+    }
+
+    #rd-column-jsc68n47 > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-jsc68n47 > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-jsc68n47" class="bricks--column rd-column">
+  <div>
+    
+<style type="text/css" rel="stylesheet">
+  
+    #rd-text-lo3bimlz {
+      display: block;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      min-height: auto0px;
+      max-width: 926px;
+      margin-top: 40px;
+      margin-bottom: 15px;
+      align-self: center;
+      width: 100%;
+      word-break: break-word;
+    }
+  
+
+  
+</style>
+
+<div id="rd-text-lo3bimlz" class="bricks--component bricks--component-text rd-text">
+  <p style="text-align: center;"><strong style="font-family: Montserrat, sans-serif; background-color: transparent; font-size: 20px; color: black;">Com mais de 5 anos de experiência de mercado nossa equipe já atendeu mais de 500 clientes fazendo-os faturar múltiplos dígitos.
+
+    ​</strong></p>
+</div>
+
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-text-jsc6ek2d {
+      display: block;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      min-height: auto-34px;
+      max-width: 729px;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      align-self: center;
+      width: 100%;
+      word-break: break-word;
+    }
+  
+
+  
+</style>
+
+<div id="rd-text-jsc6ek2d" class="bricks--component bricks--component-text rd-text">
+  <p style="text-align: center;"><strong style="background-color: transparent; font-size: 24px; color: black; font-family: Montserrat, sans-serif;">SERVIÇOS QUE OFERECEMOS:</strong></p>
+</div>
+
+
+
+  </div>
+</div>
+
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lrfj8otq {
+      min-height: 50px;
+    }
+
+    #rd-row-lrfj8otq .bricks--column > div {
+      min-height: 50px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lrfj8otq.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lrfj8otq.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lrfj8otq" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lrfj8otr {
+      flex: 3 0 0;
+    }
+
+    #rd-column-lrfj8otr > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lrfj8otr > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lrfj8otr" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lstagmlu {
+      margin-top: 0px;
+      margin-bottom: 20px;
+      align-self: center;
+      max-width: 240px;
+    }
+
+    #rd-image-lstagmlu a,
+    #rd-image-lstagmlu img {
+      width: 240px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lstagmlu {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lstagmlu" class="bricks--component bricks--component-image rd-image" style="margin: 10px;">
+
+    <img src="SERVIÇOS.png" alt="">
+
+</div>
+
+  </div>
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lstahet0 {
+      flex: 3 0 0;
+    }
+
+    #rd-column-lstahet0 > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lstahet0 > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lstahet0" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lstahhcb {
+      margin-top: 0px;
+      margin-bottom: 20px;
+      align-self: center;
+      max-width: 240px;
+    }
+
+    #rd-image-lstahhcb a,
+    #rd-image-lstahhcb img {
+      width: 240px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lstahhcb {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lstagmlu" class="bricks--component bricks--component-image rd-image" style="margin: 10px;">
+
+    <img src="MARKETING.png" alt="">
+
+</div>
+
+  </div>
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lstahmf2 {
+      flex: 3 0 0;
+    }
+
+    #rd-column-lstahmf2 > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lstahmf2 > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lstahmf2" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lstahmf3 {
+      margin-top: 0px;
+      margin-bottom: 20px;
+      align-self: center;
+      max-width: 240px;
+    }
+
+    #rd-image-lstahmf3 a,
+    #rd-image-lstahmf3 img {
+      width: 240px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lstahmf3 {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lstagmlu" class="bricks--component bricks--component-image rd-image" style="margin: 10px;">
+
+    <img src="GESTÃO.png" alt="">
+
+</div>
+
+  </div>
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lstahns8 {
+      flex: 3 0 0;
+    }
+
+    #rd-column-lstahns8 > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lstahns8 > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lstahns8" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lstahns9 {
+      margin-top: 0px;
+      margin-bottom: 20px;
+      align-self: center;
+      max-width: 240px;
+    }
+
+    #rd-image-lstahns9 a,
+    #rd-image-lstahns9 img {
+      width: 240px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lstahns9 {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lstagmlu" class="bricks--component bricks--component-image rd-image" style="margin: 10px;">
+
+    <img src="ESTRUTURAÇÃO.png" alt="">
+
+</div>
+
+  </div>
+</div>
+
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lstaqyfs {
+      min-height: 50px;
+    }
+
+    #rd-row-lstaqyfs .bricks--column > div {
+      min-height: 50px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lstaqyfs.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lstaqyfs.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lstaqyfs" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lstaqyft {
+      flex: 12 0 0;
+    }
+
+    #rd-column-lstaqyft > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lstaqyft > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lstaqyft" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    a#rd-button-lo3bjh2l {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #rd-button-lo3bjh2l {
+      -ms-flex-align: center;
+      -ms-flex-direction: column;
+      -ms-flex-pack: center;
+      align-self: center;
+      background-color: #5e5393;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 14px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 0px;
+      
+          box-shadow: 0px
+                      0px
+                      0px
+                      0px
+                      #cccccc;
+        ;
+      color: #FFFFFF;
+      cursor: pointer;
+      font-family: Open Sans, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      height: 44px;
+      justify-content: center;
+      line-height: 1.42857;
+      margin-bottom: 20px;
+      margin-top: 5px;
+      max-width: 297px;
+      text-align: center;
+      text-decoration: none;
+      width: 100%;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-button-lo3bjh2l {
+        height: auto;
+        padding-top: 0.66em;
+        padding-bottom: 0.66em;
+      }
+    }
+  
+
+  
+</style>
+
+
+  <a
+    class="bricks--component bricks--component-button rd-button"
+    href="https://wa.me/qr/QNP33QCXYCBXK1"
+    id="rd-button-lo3bjh2l"
+    target="_self"
+    title=""
+  >
+    FALAR COM ESPECIALISTA NO WHATSAPP
+  </a>
+
+
+  </div>
+</div>
+
+</div>
+
+</section>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-section-lo3bimlw {
+      
+          background-color: #ffffff;
+        
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+
+    #rd-section-lo3bimlw > div:not(.bricks--row) {
+      min-height: 0px;
+    }
+  
+
+  
+</style>
+
+<section id="rd-section-lo3bimlw" class="bricks--section rd-section">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lo3bimlx {
+      min-height: 50px;
+    }
+
+    #rd-row-lo3bimlx .bricks--column > div {
+      min-height: 50px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lo3bimlx.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lo3bimlx.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lo3bimlx" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lo3bimly {
+      flex: 12 0 0;
+    }
+
+    #rd-column-lo3bimly > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lo3bimly > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lo3bimly" class="bricks--column rd-column">
+  <div>
+    
+<style type="text/css" rel="stylesheet">
+  
+    #rd-text-lst98m1g {
+      display: block;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      min-height: auto0px;
+      max-width: 706px;
+      margin-top: 60px;
+      margin-bottom: 0px;
+      align-self: center;
+      width: 100%;
+      word-break: break-word;
+    }
+  
+
+  
+</style>
+
+<div id="rd-text-lst98m1g" class="bricks--component bricks--component-text rd-text">
+  <p style="text-align: center;"><strong style="font-family: Montserrat, sans-serif; background-color: transparent; font-size: 24px; color: black;">Veja quais empresas são nossos parceiros</strong><span style="font-family: Montserrat, sans-serif; background-color: transparent; font-size: 24px; color: rgb(249, 180, 16);">&nbsp;</span></p>
+</div>
+
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-text-lo3bimm0 {
+      display: block;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      min-height: auto-22px;
+      max-width: 779px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      align-self: center;
+      width: 100%;
+      word-break: break-word;
+    }
+  
+
+  
+</style>
+
+<div id="rd-text-lo3bimm0" class="bricks--component bricks--component-text rd-text">
+  <p style="text-align: center;"><span style="background-color: transparent; font-size: 16px; color: rgb(71, 80, 78); font-family: Montserrat, sans-serif;">Conheça algumas marcas que já transformaram suas vendas com nossas estratégias:</span></p>
+</div>
+
+
+
+  </div>
+</div>
+
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lsdbneq3 {
+      min-height: 50px;
+    }
+
+    #rd-row-lsdbneq3 .bricks--column > div {
+      min-height: 50px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lsdbneq3.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lsdbneq3.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lsdbneq3" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lsdbneq4 {
+      flex: 4 0 0;
+    }
+
+    #rd-column-lsdbneq4 > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lsdbneq4 > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lsdbneq4" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lsdbngoz {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      align-self: flex-end;
+      max-width: 142px;
+    }
+
+    #rd-image-lsdbngoz a,
+    #rd-image-lsdbngoz img {
+      width: 142px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lsdbngoz {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lsdbngoz" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="facebook-removebg-preview.png" alt="">
+
+  
+</div>
+
+  </div>
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lsdbnk5l {
+      flex: 4 0 0;
+    }
+
+    #rd-column-lsdbnk5l > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lsdbnk5l > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lsdbnk5l" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lsdbnk5m {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      align-self: center;
+      max-width: 142px;
+    }
+
+    #rd-image-lsdbnk5m a,
+    #rd-image-lsdbnk5m img {
+      width: 142px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lsdbnk5m {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lsdbnk5m" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="google.png" alt="">
+
+  
+</div>
+
+  </div>
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lsdbnroi {
+      flex: 4 0 0;
+    }
+
+    #rd-column-lsdbnroi > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lsdbnroi > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lsdbnroi" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lsdbnroj {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      align-self: flex-start;
+      max-width: 147px;
+    }
+
+    #rd-image-lsdbnroj a,
+    #rd-image-lsdbnroj img {
+      width: 147px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lsdbnroj {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lsdbnroj" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="nuvemshop.png" alt="">
+
+  
+</div>
+
+  </div>
+</div>
+
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lsdbsjqw {
+      min-height: 50px;
+    }
+
+    #rd-row-lsdbsjqw .bricks--column > div {
+      min-height: 50px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lsdbsjqw.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lsdbsjqw.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lsdbsjqw" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lsdbsjqx {
+      flex: 4 0 0;
+    }
+
+    #rd-column-lsdbsjqx > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lsdbsjqx > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lsdbsjqx" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lsdbsjqy {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      align-self: flex-end;
+      max-width: 155px;
+    }
+
+    #rd-image-lsdbsjqy a,
+    #rd-image-lsdbsjqy img {
+      width: 155px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lsdbsjqy {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lsdbsjqy" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="tray.webp" alt="">
+
+  
+</div>
+
+  </div>
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lsdbsjqz {
+      flex: 4 0 0;
+    }
+
+    #rd-column-lsdbsjqz > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lsdbsjqz > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lsdbsjqz" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lsdbsjr0 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      align-self: center;
+      max-width: 186px;
+    }
+
+    #rd-image-lsdbsjr0 a,
+    #rd-image-lsdbsjr0 img {
+      width: 186px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lsdbsjr0 {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lsdbsjr0" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="loja-integrada.png" alt="">
+
+  
+</div>
+
+  </div>
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lsdbsjr1 {
+      flex: 4 0 0;
+    }
+
+    #rd-column-lsdbsjr1 > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lsdbsjr1 > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lsdbsjr1" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lsdbsjr2 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      align-self: flex-start;
+      max-width: 137px;
+    }
+
+    #rd-image-lsdbsjr2 a,
+    #rd-image-lsdbsjr2 img {
+      width: 137px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lsdbsjr2 {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lsdbsjr2" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="octadesk-removebg-preview.png" alt="">
+
+  
+</div>
+
+  </div>
+</div>
+
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lsdbu5nm {
+      min-height: 50px;
+    }
+
+    #rd-row-lsdbu5nm .bricks--column > div {
+      min-height: 50px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lsdbu5nm.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lsdbu5nm.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lsdbu5nm" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lsdbu5nn {
+      flex: 5 0 0;
+    }
+
+    #rd-column-lsdbu5nn > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lsdbu5nn > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lsdbu5nn" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lsdbu5no {
+      margin-top: 10px;
+      margin-bottom: 50px;
+      align-self: flex-end;
+      max-width: 200px;
+    }
+
+    #rd-image-lsdbu5no a,
+    #rd-image-lsdbu5no img {
+      width: 200px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lsdbu5no {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lsdbu5no" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="bling-removebg-preview.png" alt="">
+
+  
+</div>
+
+  </div>
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lsdbu5nr {
+      flex: 1 0 0;
+    }
+
+    #rd-column-lsdbu5nr > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lsdbu5nr > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lsdbu5nr" class="bricks--column rd-column">
+  <div>
+    
+  </div>
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lsdbvz8q {
+      flex: 6 0 0;
+    }
+
+    #rd-column-lsdbvz8q > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lsdbvz8q > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lsdbvz8q" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lsdbvz8r {
+      margin-top: 10px;
+      margin-bottom: 50px;
+      align-self: flex-start;
+      max-width: 200px;
+    }
+
+    #rd-image-lsdbvz8r a,
+    #rd-image-lsdbvz8r img {
+      width: 200px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lsdbvz8r {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lsdbvz8r" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="delivery-removebg-preview.png" alt="">
+
+  
+</div>
+
+  </div>
+</div>
+
+</div>
+
+</section>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-section-ls1vaqob {
+      
+          background-color: transparent;
+        
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+
+    #rd-section-ls1vaqob > div:not(.bricks--row) {
+      min-height: 0px;
+    }
+  
+
+  
+</style>
+
+<section id="rd-section-ls1vaqob" class="bricks--section rd-section">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lstcsx0e {
+      min-height: 50px;
+    }
+
+    #rd-row-lstcsx0e .bricks--column > div {
+      min-height: 50px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lstcsx0e.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lstcsx0e.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lstcsx0e" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lstcsx0f {
+      flex: 12 0 0;
+    }
+
+    #rd-column-lstcsx0f > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lstcsx0f > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lstcsx0f" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    a#rd-button-lstcsx0g {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #rd-button-lstcsx0g {
+      -ms-flex-align: center;
+      -ms-flex-direction: column;
+      -ms-flex-pack: center;
+      align-self: center;
+      background-color: #f6a611;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 14px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 0px;
+      
+          box-shadow: 0px
+                      0px
+                      0px
+                      0px
+                      #cccccc;
+        ;
+      color: #FFFFFF;
+      cursor: pointer;
+      font-family: Open Sans, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      height: 44px;
+      justify-content: center;
+      line-height: 1.42857;
+      margin-bottom: 30px;
+      margin-top: 10px;
+      max-width: 357px;
+      text-align: center;
+      text-decoration: none;
+      width: 100%;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-button-lstcsx0g {
+        height: auto;
+        padding-top: 0.66em;
+        padding-bottom: 0.66em;
+      }
+    }
+  
+
+  
+</style>
+
+
+  <a
+    class="bricks--component bricks--component-button rd-button"
+    href="https://wa.me/qr/QNP33QCXYCBXK1"
+    id="rd-button-lstcsx0g"
+    target="_self"
+    title=""
+  >
+    Fale Conosco
+  </a>
+
+
+  </div>
+</div>
+
+</div>
+
+</section>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-section-lo3cimp1 {
+      
+          background-color: #f1f1f6;
+        
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+
+    #rd-section-lo3cimp1 > div:not(.bricks--row) {
+      min-height: 0px;
+    }
+  
+
+  
+</style>
+
+<section id="rd-section-lo3cimp1" class="bricks--section rd-section">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lo3cimp2 {
+      min-height: 50px;
+    }
+
+    #rd-row-lo3cimp2 .bricks--column > div {
+      min-height: 50px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lo3cimp2.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lo3cimp2.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lo3cimp2" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lo3cimp3 {
+      flex: 12 0 0;
+    }
+
+    #rd-column-lo3cimp3 > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lo3cimp3 > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lo3cimp3" class="bricks--column rd-column">
+  <div>
+    
+<style type="text/css" rel="stylesheet">
+  
+    #rd-text-lo3cimp4 {
+      display: block;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      min-height: auto-27px;
+      max-width: 836px;
+      margin-top: 60px;
+      margin-bottom: 20px;
+      align-self: center;
+      width: 100%;
+      word-break: break-word;
+    }
+  
+
+  
+</style>
+
+<div id="rd-text-lo3cimp4" class="bricks--component bricks--component-text rd-text">
+  <h4 style="text-align: center;"><strong style="background-color: transparent; font-size: 26px; color: black; font-family: Montserrat, sans-serif;">O melhor jeito de converter clientes para seu negócio!</strong></h4>
+</div>
+
+
+
+  </div>
+</div>
+
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lo4y33vm {
+      min-height: 50px;
+    }
+
+    #rd-row-lo4y33vm .bricks--column > div {
+      min-height: 50px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lo4y33vm.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lo4y33vm.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lo4y33vm" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lo4y33vn {
+      flex: 12 0 0;
+    }
+
+    #rd-column-lo4y33vn > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lo4y33vn > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lo4y33vn" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lo4y3nxp {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      align-self: center;
+      max-width: 960px;
+    }
+
+    #rd-image-lo4y3nxp a,
+    #rd-image-lo4y3nxp img {
+      width: 960px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lo4y3nxp {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lo4y3nxp" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="CONVERTER.jpg" alt="">
+
+  
+</div>
+
+  </div>
+</div>
+
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lo3cimpx {
+      min-height: 86px;
+    }
+
+    #rd-row-lo3cimpx .bricks--column > div {
+      min-height: 86px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lo3cimpx.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lo3cimpx.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lo3cimpx" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lo3cimpy {
+      flex: 12 0 0;
+    }
+
+    #rd-column-lo3cimpy > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lo3cimpy > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lo3cimpy" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    a#rd-button-lo3cimq0 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #rd-button-lo3cimq0 {
+      -ms-flex-align: center;
+      -ms-flex-direction: column;
+      -ms-flex-pack: center;
+      align-self: center;
+      background-color: #00a690;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 14px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 0px;
+      
+          box-shadow: 0px
+                      0px
+                      0px
+                      0px
+                      #47504e;
+        ;
+      color: #ffffff;
+      cursor: pointer;
+      font-family: Montserrat, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      height: 44px;
+      justify-content: center;
+      line-height: 1.42857;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      max-width: 427px;
+      text-align: center;
+      text-decoration: none;
+      width: 100%;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-button-lo3cimq0 {
+        height: auto;
+        padding-top: 0.66em;
+        padding-bottom: 0.66em;
+      }
+    }
+  
+
+  
+</style>
+
+
+  <a
+    class="bricks--component bricks--component-button rd-button"
+    href="https://wa.me/qr/QNP33QCXYCBXK1"
+    id="rd-button-lo3cimq0"
+    target="_self"
+    title=""
+  >
+    Converse com um especialista
+  </a>
+
+
+  </div>
+</div>
+
+</div>
+
+</section>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-section-lrfi5kil {
+      
+          background-color: #ffffff;
+        
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+
+    #rd-section-lrfi5kil > div:not(.bricks--row) {
+      min-height: 0px;
+    }
+  
+
+  
+</style>
+
+<section id="rd-section-lrfi5kil" class="bricks--section rd-section">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lrfi5kir {
+      min-height: 50px;
+    }
+
+    #rd-row-lrfi5kir .bricks--column > div {
+      min-height: 50px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lrfi5kir.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lrfi5kir.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lrfi5kir" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lrfi5kis {
+      flex: 12 0 0;
+    }
+
+    #rd-column-lrfi5kis > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lrfi5kis > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lrfi5kis" class="bricks--column rd-column">
+  <div>
+    
+<style type="text/css" rel="stylesheet">
+  
+    #rd-text-lrfi5kit {
+      display: block;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      min-height: auto-68px;
+      max-width: 652px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      align-self: center;
+      width: 100%;
+      word-break: break-word;
+    }
+  
+
+  
+</style>
+
+<div id="rd-text-lrfi5kit" class="bricks--component bricks--component-text rd-text">
+  <p style="text-align: center;"><strong style="font-family: Montserrat, sans-serif; font-size: 24px; background-color: transparent; color: black;">A agência Mavi é ideal para empresas que enfrentam esses problemas:</strong></p>
+</div>
+
+
+
+  </div>
+</div>
+
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lrfi5kiu {
+      min-height: 89px;
+    }
+
+    #rd-row-lrfi5kiu .bricks--column > div {
+      min-height: 89px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lrfi5kiu.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lrfi5kiu.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lrfi5kiu" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lrfi5kiv {
+      flex: 4 0 0;
+    }
+
+    #rd-column-lrfi5kiv > div {
+      
+          background-color: transparent;
+        
+      justify-content: flex-start;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lrfi5kiv > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lrfi5kiv" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-box-lstc6z84 {
+      
+          background-color: transparent;
+        
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      min-height: auto0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      max-width: 315px;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+</style>
+
+<div id="rd-box-lstc6z84" class="bricks--component bricks--component-box rd-box">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lrfi5kiw {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      align-self: center;
+      max-width: 80px;
+    }
+
+    #rd-image-lrfi5kiw a,
+    #rd-image-lrfi5kiw img {
+      width: 80px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lrfi5kiw {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lrfi5kiw" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="1--.png" alt="">
+
+  
+</div>
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-text-lrfi5kix {
+      display: block;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      min-height: auto-112px;
+      max-width: 413px;
+      margin-top: 0px;
+      margin-bottom: 20px;
+      align-self: center;
+      width: 100%;
+      word-break: break-word;
+    }
+  
+
+  
+</style>
+
+<div id="rd-text-lrfi5kix" class="bricks--component bricks--component-text rd-text">
+  <p style="line-height: 1.25; text-align: center;"><span style="color: rgb(71, 80, 78); font-family: Montserrat, sans-serif; font-size: 14px;">Não consigo atingir meus </span><strong style="color: rgb(71, 80, 78); font-family: Montserrat, sans-serif; font-size: 14px;">resultados    e metas</strong><span style="color: rgb(71, 80, 78); font-family: Montserrat, sans-serif; font-size: 14px;"> de marketing</span></p>
+</div>
+
+
+
+</div>
+
+  </div>
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lstc75gn {
+      flex: 4 0 0;
+    }
+
+    #rd-column-lstc75gn > div {
+      
+          background-color: transparent;
+        
+      justify-content: flex-start;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lstc75gn > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lstc75gn" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-box-lstc75go {
+      
+          background-color: transparent;
+        
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      min-height: auto0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      max-width: 312px;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+</style>
+
+<div id="rd-box-lstc75go" class="bricks--component bricks--component-box rd-box">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lrfi5kj3 {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      align-self: center;
+      max-width: 80px;
+    }
+
+    #rd-image-lrfi5kj3 a,
+    #rd-image-lrfi5kj3 img {
+      width: 80px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lrfi5kj3 {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lrfi5kj3" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="3-- (2).png" alt="">
+
+  
+</div>
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-text-lrfi5kj4 {
+      display: block;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      min-height: auto0px;
+      max-width: 328px;
+      margin-top: 0px;
+      margin-bottom: 20px;
+      align-self: center;
+      width: 100%;
+      word-break: break-word;
+    }
+  
+
+  
+</style>
+
+<div id="rd-text-lrfi5kj4" class="bricks--component bricks--component-text rd-text">
+  <p style="text-align: center; line-height: 1.25;"><strong style="color: rgb(71, 80, 78); font-size: 14px; font-family: Montserrat, sans-serif;">Não tenho estrutura </strong><span style="color: rgb(71, 80, 78); font-size: 14px; font-family: Montserrat, sans-serif;">para capturar leads qualificados e operar Inbound Marketing</span></p>
+</div>
+
+
+
+</div>
+
+  </div>
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lstc7c7m {
+      flex: 4 0 0;
+    }
+
+    #rd-column-lstc7c7m > div {
+      
+          background-color: transparent;
+        
+      justify-content: flex-start;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lstc7c7m > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lstc7c7m" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-box-lstc7c7n {
+      
+          background-color: transparent;
+        
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      min-height: auto-20px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      max-width: 320px;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+</style>
+
+<div id="rd-box-lstc7c7n" class="bricks--component bricks--component-box rd-box">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lrfi5kj6 {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      align-self: center;
+      max-width: 80px;
+    }
+
+    #rd-image-lrfi5kj6 a,
+    #rd-image-lrfi5kj6 img {
+      width: 80px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lrfi5kj6 {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lrfi5kj6" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="3-- (1).png" alt="">
+
+  
+</div>
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-text-lrfi5kj7 {
+      display: block;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      min-height: auto-38px;
+      max-width: 333px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      align-self: center;
+      width: 100%;
+      word-break: break-word;
+    }
+  
+
+  
+</style>
+
+<div id="rd-text-lrfi5kj7" class="bricks--component bricks--component-text rd-text">
+  <p style="text-align: center; line-height: 1.25;"><span style="font-family: Montserrat, sans-serif; font-size: 14px; color: rgb(71, 80, 78);">O meu </span><strong style="font-family: Montserrat, sans-serif; font-size: 14px; color: rgb(71, 80, 78);">mapeamento do público-alvo é falho </strong><span style="font-family: Montserrat, sans-serif; font-size: 14px; color: rgb(71, 80, 78);">ou inexistente</span></p>
+</div>
+
+
+
+</div>
+
+  </div>
+</div>
+
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lrfi5kj8 {
+      min-height: 89px;
+    }
+
+    #rd-row-lrfi5kj8 .bricks--column > div {
+      min-height: 89px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lrfi5kj8.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lrfi5kj8.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lrfi5kj8" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lrfi5kj9 {
+      flex: 4 0 0;
+    }
+
+    #rd-column-lrfi5kj9 > div {
+      
+          background-color: transparent;
+        
+      justify-content: flex-start;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lrfi5kj9 > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lrfi5kj9" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-box-lstc8lu6 {
+      
+          background-color: transparent;
+        
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      min-height: auto0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      max-width: 317px;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+</style>
+
+<div id="rd-box-lstc8lu6" class="bricks--component bricks--component-box rd-box">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lrfi5kja {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      align-self: center;
+      max-width: 80px;
+    }
+
+    #rd-image-lrfi5kja a,
+    #rd-image-lrfi5kja img {
+      width: 80px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lrfi5kja {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lrfi5kja" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="4--.png" alt="">
+
+  
+</div>
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-text-lrfi5kjb {
+      display: block;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      min-height: auto-186px;
+      max-width: 401px;
+      margin-top: 0px;
+      margin-bottom: 20px;
+      align-self: center;
+      width: 100%;
+      word-break: break-word;
+    }
+  
+
+  
+</style>
+
+<div id="rd-text-lrfi5kjb" class="bricks--component bricks--component-text rd-text">
+  <p style="text-align: center; line-height: 1.25;"><span style="font-family: Montserrat, sans-serif; font-size: 14px; color: rgb(71, 80, 78);">Tenho um</span><strong style="font-family: Montserrat, sans-serif; font-size: 14px; color: rgb(71, 80, 78);"> baixo número de reuniões com decisores</strong></p>
+</div>
+
+
+
+</div>
+
+  </div>
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lstc8yz8 {
+      flex: 4 0 0;
+    }
+
+    #rd-column-lstc8yz8 > div {
+      
+          background-color: transparent;
+        
+      justify-content: flex-start;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lstc8yz8 > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lstc8yz8" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-box-lstc8yz9 {
+      
+          background-color: transparent;
+        
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      min-height: auto0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      max-width: 316px;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+</style>
+
+<div id="rd-box-lstc8yz9" class="bricks--component bricks--component-box rd-box">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lrfi5kjh {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      align-self: center;
+      max-width: 80px;
+    }
+
+    #rd-image-lrfi5kjh a,
+    #rd-image-lrfi5kjh img {
+      width: 80px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lrfi5kjh {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lrfi5kjh" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="5--.png" alt="">
+
+  
+</div>
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-text-lrfi5kji {
+      display: block;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      min-height: auto-186px;
+      max-width: 401px;
+      margin-top: 0px;
+      margin-bottom: 20px;
+      align-self: center;
+      width: 100%;
+      word-break: break-word;
+    }
+  
+
+  
+</style>
+
+<div id="rd-text-lrfi5kji" class="bricks--component bricks--component-text rd-text">
+  <p style="text-align: center; line-height: 1.25;"><span style="font-family: Montserrat, sans-serif; color: rgb(71, 80, 78); font-size: 14px;">Meu time de </span><strong style="font-family: Montserrat, sans-serif; color: rgb(71, 80, 78); font-size: 14px;">marketing não consegue alinhar </strong><span style="font-family: Montserrat, sans-serif; color: rgb(71, 80, 78); font-size: 14px;">e gerar valor                  para </span><strong style="font-family: Montserrat, sans-serif; color: rgb(71, 80, 78); font-size: 14px;">vendas</strong></p>
+</div>
+
+
+
+</div>
+
+  </div>
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lstc94h7 {
+      flex: 4 0 0;
+    }
+
+    #rd-column-lstc94h7 > div {
+      
+          background-color: transparent;
+        
+      justify-content: flex-start;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lstc94h7 > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lstc94h7" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-box-lstc94h8 {
+      
+          background-color: transparent;
+        
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      min-height: auto0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      max-width: 320px;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+</style>
+
+<div id="rd-box-lstc94h8" class="bricks--component bricks--component-box rd-box">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lrfi5kjk {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      align-self: center;
+      max-width: 80px;
+    }
+
+    #rd-image-lrfi5kjk a,
+    #rd-image-lrfi5kjk img {
+      width: 80px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lrfi5kjk {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+
+
+<div id="rd-image-lrfi5kjk" class="bricks--component bricks--component-image rd-image">
+  
+        <img src="6--.png" alt="">
+
+  
+</div>
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-text-lrfi5kjl {
+      display: block;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+      min-height: auto0px;
+      max-width: 332px;
+      margin-top: 0px;
+      margin-bottom: 20px;
+      align-self: center;
+      width: 100%;
+      word-break: break-word;
+    }
+  
+
+  
+</style>
+
+<div id="rd-text-lrfi5kjl" class="bricks--component bricks--component-text rd-text">
+  <p style="line-height: 1.25; text-align: center;"><strong style="font-size: 14px; color: rgb(71, 80, 78); font-family: Montserrat, sans-serif;">Não consigo encantar meus clientes </strong><span style="font-size: 14px; color: rgb(71, 80, 78); font-family: Montserrat, sans-serif;">em toda a jornada</span></p>
+</div>
+
+
+
+</div>
+
+  </div>
+</div>
+
+</div>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lstcv6ut {
+      min-height: 50px;
+    }
+
+    #rd-row-lstcv6ut .bricks--column > div {
+      min-height: 50px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lstcv6ut.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lstcv6ut.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lstcv6ut" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lstcv6uu {
+      flex: 12 0 0;
+    }
+
+    #rd-column-lstcv6uu > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lstcv6uu > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lstcv6uu" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    a#rd-button-lstcumjo {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #rd-button-lstcumjo {
+      -ms-flex-align: center;
+      -ms-flex-direction: column;
+      -ms-flex-pack: center;
+      align-self: center;
+      background-color: #f6a611;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 14px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 0px;
+      
+          box-shadow: 0px
+                      0px
+                      0px
+                      0px
+                      #47504e;
+        ;
+      color: #ffffff;
+      cursor: pointer;
+      font-family: Montserrat, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      height: 44px;
+      justify-content: center;
+      line-height: 1.42857;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      max-width: 282px;
+      text-align: center;
+      text-decoration: none;
+      width: 100%;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-button-lstcumjo {
+        height: auto;
+        padding-top: 0.66em;
+        padding-bottom: 0.66em;
+      }
+    }
+  
+
+  
+</style>
+
+
+  <a style="margin-bottom: 35px;"
+    class="bricks--component bricks--component-button rd-button"
+    href="https://wa.me/qr/QNP33QCXYCBXK1"
+    id="rd-button-lstcumjo"
+    target="_self"
+    title=""
+  >
+    Fale Conosco
+  </a>
+
+
+  </div>
+</div>
+
+</div>
+
+</section>
+
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-section-lo4xz9zf {
+      
+          background-color: #47504e;
+        
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+
+    #rd-section-lo4xz9zf > div:not(.bricks--row) {
+      min-height: 0px;
+    }
+  
+
+  
+</style>
+
+<section id="rd-section-lo4xz9zf" class="bricks--section rd-section">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-row-lo4xza02 {
+      min-height: 59px;
+    }
+
+    #rd-row-lo4xza02 .bricks--column > div {
+      min-height: 59px;
+    }
+
+    @media (max-width: 480px) {
+      #rd-row-lo4xza02.bricks--row {
+        min-height: auto;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      #rd-row-lo4xza02.bricks--row.rd-row {
+        min-height: auto;
+      }
+    }
+  
+</style>
+
+<div id="rd-row-lo4xza02" class="bricks--row rd-row">
+  
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-column-lo4xza09 {
+      flex: 12 0 0;
+    }
+
+    #rd-column-lo4xza09 > div {
+      
+          background-color: transparent;
+        
+      justify-content: center;
+      padding-top: 0px;
+      padding-right: 20px;
+      padding-bottom: 0px;
+      padding-left: 20px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-column-lo4xza09 > div {
+        min-height: auto !important;
+      }
+    }
+  
+
+  
+</style>
+
+<div id="rd-column-lo4xza09" class="bricks--column rd-column">
+  <div>
+    
+
+<style type="text/css" rel="stylesheet">
+  
+    #rd-image-lo4xza0a {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      align-self: center;
+      max-width: 163px;
+    }
+
+    #rd-image-lo4xza0a a,
+    #rd-image-lo4xza0a img {
+      width: 163px;
+      max-width: 100%;
+      height: auto;
+      border-bottom-style: none;
+      border-color: #000000;
+      border-left-style: none;
+      border-radius: 0px;
+      border-right-style: none;
+      border-top-style: none;
+      border-width: 1px;
+    }
+    @media screen and (max-width: 767px) {
+      #rd-image-lo4xza0a {
+        align-self: center;
+      }
+    }
+  
+
+  
+</style>
+
+<h5 style="text-align: center; color: white; margin-top: 15px;">MAVI Marketing Digital  </h5>
+
+<div id="rd-image-lo4xza0a" class="bricks--component bricks--component-image rd-image">
+  
+      
+
+  
+</div>
+
+  </div>
+</div>
+
+</div>
+
+</section>
+
+      </div>
+    </div>
+
+    
+  </body>
+
+  <style>
+
+
+  </style>
+
+</html>
